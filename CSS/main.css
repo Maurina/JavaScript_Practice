@@ -1,0 +1,12 @@
+body .firstEffect {
+  position: relative;
+}
+body .firstEffect h1 {
+  font-size: 3rem;
+  color: orange;
+  background-color: purple;
+}
+body .firstEffect .words {
+  position: absolute;
+  opacity: 0;
+}
