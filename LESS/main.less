@@ -2,22 +2,65 @@
 
 body{
 
-    .firstEffect{
-        position: relative;
-        font-weight: bold;
-        font-size: 5rem;
-        color: white;
-        background-color: black;
 
-        .words {
+    .conatiner{
+        display: flex;
+        justify-content: space-between;
+       
+  
+      
+    
+    h1{
+    
+        font-size: 3rem;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 4%;
+    }
+
+    button{
+        background-color: white;
+        color: blue;
+        border: 2px gray solid;
+        box-shadow: 2px 2px darkgray;
+        font-size: 1rem;
+
+    }
+
+    #firstEffect {
+        background-color: blue;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        padding: 4%;
+        height: 150px;
+  
+        
+        
+
+    }//h1
+ 
+    #secondEffect{
+        position: relative;
+        width: 50%;
+        background-color: green;
+        color: black;
+
+        
+        .words{
             position: absolute;
+            font-size: 3rem;
             margin: auto;
-            left: 0;
-            top: 0.3rem;
-            right: 0;
-            opacity: 0;
-        }
-    }//firstEffect
+            left: 50%;
+            top: 30%;
+            opacity: 1;
+            }//words
+      
+    }//words
+
+}//container
   
   
 }//body
