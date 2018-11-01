@@ -130,40 +130,81 @@ body .conatiner {
   display: flex;
   justify-content: space-between;
 }
-body .conatiner h1 {
-  font-size: 3rem;
+body .conatiner .box1 {
+  width: 100%;
   background-color: blue;
   color: white;
-  text-align: center;
   padding: 4%;
 }
-body .conatiner button {
+body .conatiner .box1 h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 4%;
+}
+body .conatiner .box1 button {
+  width: 140px;
+  height: 40px;
+  margin-left: 40%;
+  text-align: center;
   background-color: white;
   color: blue;
-  border: 2px gray solid;
+  border: 1px gray solid;
   box-shadow: 2px 2px darkgray;
   font-size: 1rem;
 }
-body .conatiner #firstEffect {
-  background-color: blue;
-  color: white;
+body .conatiner .box1 #firstEffect {
+  width: 100%;
   font-size: 3rem;
   text-align: center;
-  width: 50%;
   padding: 4%;
   height: 150px;
 }
-body .conatiner #secondEffect {
-  position: relative;
-  width: 50%;
-  background-color: green;
-  color: black;
+body .conatiner .box2 {
+  background-color: orange;
+  color: blue;
+  width: 100%;
+  padding: 4%;
 }
-body .conatiner #secondEffect .words {
-  position: absolute;
+body .conatiner .box2 .secondEffect {
+  padding-bottom: 4%;
+  text-align: center;
   font-size: 3rem;
-  margin: auto;
-  left: 50%;
-  top: 30%;
-  opacity: 1;
+}
+body .conatiner .box2 button {
+  width: 140px;
+  height: 40px;
+  margin-left: 40%;
+  text-align: center;
+  background-color: white;
+  color: orange;
+  border: 1px lightgray solid;
+  box-shadow: 2px 2px lightgray;
+  font-size: 1rem;
+}
+body .box3 {
+  background-color: green;
+  color: yellow;
+  width: 100%;
+  padding: 4%;
+}
+body .box3 h1 {
+  font-size: 3rem;
+  padding-bottom: 4%;
+  text-align: center;
+}
+body .box3 button {
+  width: 180px;
+  height: 40px;
+  margin-left: 40%;
+  text-align: center;
+  background-color: yellow;
+  color: green;
+  border: 1px solid gray;
+  box-shadow: 2px 2px gray;
+  font-size: 1rem;
+}
+body .box3 p {
+  font-size: 1.5rem;
+  padding-top: 4%;
+  text-align: center;
 }
